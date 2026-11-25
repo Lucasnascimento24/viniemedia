@@ -1,123 +1,124 @@
+
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="pt-PT">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Viniemedia</title>
+    <title data-i18n-title="page.title">Home | Viniemedia</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
 
 <body>
 
-    <header class="header" id="header">
-    </header>
+    <header class="header" id="header"></header>
 
+    <hr style="margin-top: 80px;" id="projetos">
 
-    <!-- Conteúdo principal -->
-    <hr style="margin-top: 80px;" id ="projetos">
+    <h2 class="projeto" data-i18n="home.projects">
+        <strong>PROJETOS</strong>
+    </h2>
 
-<h2 class="projeto"> <strong>PROJETOS</strong>  </h2>
+    <div class="carousel-container">
 
-    
+        <button class="carousel-btn prev"
+                aria-label="Fotografia anterior"
+                data-i18n-attr="aria-label:home.previousPhoto">
+            &#10094;
+        </button>
 
-<div class="carousel-container">
+        <div class="gallery">
 
-    <button class="carousel-btn prev" aria-label="Fotografia anterior">
-        &#10094;
-    </button>
+            <a href="/portfolio/" class="gallery-item gallery-more">
+                <span data-i18n="home.seeMore">Ver mais</span>
+                <span class="more-arrow">←</span>
+            </a>
 
-    
-<div class="gallery">
+            <a href="/portfolio/" class="gallery-item">
+                <img src="./assets/img/carrosselImagens/carrossel5.jpeg"
+                     alt="Fotografia de futebol"
+                     data-i18n-attr="alt:home.photoAlt">
+                <div class="gallery-overlay">
+                    <span data-i18n="home.viewPortfolio">Ver portfólio</span>
+                </div>
+            </a>
 
-    <!-- Cartão inicial -->
-    <a href="/portfolio/" class="gallery-item gallery-more">
-        <span>Ver mais</span>
-        <span class="more-arrow">←</span>
-    </a>
+            <a href="/portfolio/" class="gallery-item">
+                <img src="./assets/img/carrosselImagens/carrossel2.jpeg"
+                     alt="Fotografia de futebol"
+                     data-i18n-attr="alt:home.photoAlt">
+                <div class="gallery-overlay">
+                    <span data-i18n="home.viewPortfolio">Ver portfólio</span>
+                </div>
+            </a>
 
-    <!-- Fotografias -->
-    <a href="/portfolio/" class="gallery-item">
-        <img src="./assets/img/carrosselImagens/carrossel5.jpeg" alt="Fotografia de futebol">
-        <div class="gallery-overlay">
-            <span>Ver portfólio</span>
+            <a href="/portfolio/" class="gallery-item">
+                <img src="./assets/img/carrosselImagens/carrossel1.jpeg"
+                     alt="Fotografia de futebol"
+                     data-i18n-attr="alt:home.photoAlt">
+                <div class="gallery-overlay">
+                    <span data-i18n="home.viewPortfolio">Ver portfólio</span>
+                </div>
+            </a>
+
+            <a href="/portfolio/" class="gallery-item">
+                <img src="./assets/img/carrosselImagens/carrossel3.jpeg"
+                     alt="Fotografia de futebol"
+                     data-i18n-attr="alt:home.photoAlt">
+                <div class="gallery-overlay">
+                    <span data-i18n="home.viewPortfolio">Ver portfólio</span>
+                </div>
+            </a>
+
+            <a href="/portfolio/" class="gallery-item">
+                <img src="./assets/img/carrosselImagens/carrossel4.jpeg"
+                     alt="Fotografia de futebol"
+                     data-i18n-attr="alt:home.photoAlt">
+                <div class="gallery-overlay">
+                    <span data-i18n="home.viewPortfolio">Ver portfólio</span>
+                </div>
+            </a>
+
+            <a href="/portfolio/" class="gallery-item gallery-more">
+                <span data-i18n="home.seeMore">Ver mais</span>
+                <span class="more-arrow">→</span>
+            </a>
+
         </div>
-    </a>
 
-    <a href="/portfolio/" class="gallery-item">
-        <img src="./assets/img/carrosselImagens/carrossel2.jpeg" alt="Fotografia de futebol">
-        <div class="gallery-overlay">
-            <span>Ver portfólio</span>
-        </div>
-    </a>
+        <button class="carousel-btn next"
+                aria-label="Próxima fotografia"
+                data-i18n-attr="aria-label:home.nextPhoto">
+            &#10095;
+        </button>
 
-    <a href="/portfolio/" class="gallery-item">
-        <img src="./assets/img/carrosselImagens/carrossel1.jpeg" alt="Fotografia de futebol">
-        <div class="gallery-overlay">
-            <span>Ver portfólio</span>
-        </div>
-    </a>
-
-    <a href="/portfolio/" class="gallery-item">
-        <img src="./assets/img/carrosselImagens/carrossel3.jpeg" alt="Fotografia de futebol">
-        <div class="gallery-overlay">
-            <span>Ver portfólio</span>
-        </div>
-    </a>
-
-    <a href="/portfolio/" class="gallery-item">
-        <img src="./assets/img/carrosselImagens/carrossel4.jpeg" alt="Fotografia de futebol">
-        <div class="gallery-overlay">
-            <span>Ver portfólio</span>
-        </div>
-    </a>
-
-    <!-- Cartão final -->
-    <a href="/portfolio/" class="gallery-item gallery-more">
-        <span>Ver mais</span>
-        <span class="more-arrow">→</span>
-    </a>
-
-</div>
-
-
-    <button class="carousel-btn next" aria-label="Próxima fotografia">
-        &#10095;
-    </button>
-
-</div>
-
+    </div>
 
     <hr>
 
-    <!-- Sobre a empresa -->
-
     <div class="container-sobre-nos" id="QuemSomos">
 
-        <div class="colum-sobre-nos1">
-        </div>
+        <div class="colum-sobre-nos1"></div>
 
         <div class="colum-sobre-nos2">
 
             <div class="sobre-conteudo">
 
-                <p>
+                <p data-i18n="home.aboutIntro">
                     Olá, seja bem-vindo(a).
                     <br><br>
-
                     Me chamo <strong>Vinie</strong> e sou o <strong>CEO</strong> da
                     <strong>Viniemedia</strong>. <br>
-
                     <strong>Viniemedia</strong> é um projeto dedicado à criação de
                     <strong>conteúdo audiovisual profissional</strong>, transformando
                     momentos em imagens que contam histórias.
                 </p>
 
-                <p>
+                <p data-i18n="home.aboutFootball">
                     Especializado principalmente na <strong>cobertura de futebol</strong>,
                     com experiência em jogos, atletas e eventos esportivos, sempre
                     buscando captar a intensidade e a emoção de cada momento.
@@ -125,41 +126,46 @@
 
             </div>
 
-
         </div>
 
-
     </div>
+
     <hr style="margin-top: 60px;">
 
-    <h2 id="contacto"><strong>Seu próximo take pode começar aqui:</strong></h2>
-    
+    <h2 id="contacto" data-i18n="home.contactTitle">
+        <strong>Seu próximo take pode começar aqui:</strong>
+    </h2>
+
     <div class="contact-cards">
 
-        <div class="contact-card"> <a href="https://wa.me/351926802225" target="_blank">
+        <div class="contact-card">
+            <a href="https://wa.me/351926802225" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-whatsapp"></i>
                 <h3>WHATSAPP</h3>
-                <p>Click aqui </p>
+                <p data-i18n="home.clickHere">Clique aqui</p>
             </a>
         </div>
 
-        <div class="contact-card"> <a href="https://www.instagram.com/viniemedia/" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-            <h3>INSTAGRAM</h3>
-            <p>Click aqui </p>
+        <div class="contact-card">
+            <a href="https://www.instagram.com/viniemedia/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i>
+                <h3>INSTAGRAM</h3>
+                <p data-i18n="home.clickHere">Clique aqui</p>
             </a>
         </div>
-    </div>
 
     </div>
-      <h3>Entre em contacto connosco.</h3>
-    
+
+    <h3 data-i18n="home.contactText">
+        Entre em contacto connosco.
+    </h3>
+
     <footer class="footer" id="footer"></footer>
+
     <script src="./assets/js/header.js"></script>
     <script src="./assets/js/portfolio.js"></script>
     <script src="./assets/js/footer.js"></script>
     <script src="./assets/script/script.js"></script>
-    
-</body>
 
+</body>
 </html>

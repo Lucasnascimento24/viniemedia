@@ -72,6 +72,17 @@
          display: flex;
          flex-direction: column;
      }
+     .container-menu-container2 {
+         display: flex;
+         align-items: center;
+         justify-content:center;
+         gap: 24px;
+         width: 100%;
+         padding: 16px 24px;
+         box-sizing: border-box;
+         background-color: #000;
+         color: #fff;
+     }
 
      /* Animação do header*/
      @keyframes fadeInUp {
@@ -1032,3 +1043,157 @@
              padding: 15px 10px;
          }
      }
+
+
+
+/* =========================================
+   SEÇÃO IDIOMAS
+========================================= */
+
+.languages-section {
+    width: 100%;
+    
+    background: var(--background);
+    color: var(--white);
+}
+
+.languages-header {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.languages-header h2 {
+    font-family: var(--font-title);
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 12px 0;
+}
+
+.languages-header p {
+    color: var(--text-muted);
+    font-size: 15px;
+}
+
+/* Grelha */
+
+.languages-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+/* Cartões */
+
+.language-card {
+    min-height: 150px;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+
+    background: linear-gradient(145deg, #171717, #0d0d0d);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--border-hover);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
+/* Ícone */
+
+.language-icon {
+    color: #ddd;
+    font-size: 23px;
+}
+
+/* Nome e descrição */
+
+.language-info h3 {
+    color: var(--white);
+    font-family: var(--font-title);
+    font-size: 19px;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.language-info span {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+/* Nível */
+
+.language-level {
+    color: #ccc;
+    font-family: var(--font-code);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Responsividade */
+
+@media (max-width: 800px) {
+    .languages-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 550px) {
+    .languages-section {
+        padding: 60px 6%;
+    }
+
+    .languages-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: var(--font-code);
+    font-size: 15px;
+}
+
+.language-selector button {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 6px 2px;
+    transition: color 0.3s ease;
+}
+
+.language-selector button:hover,
+.language-selector button.active {
+    color: var(--white-pure);
+}
+
+.language-selector button.active {
+    font-weight: 700;
+}
+
+.language-selector span {
+    color: var(--border);
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+{
+  "page": {
+    "title": "Home | Viniemedia"
+  },
+   "header": {
+    "home": "HOME",
+    "projects": "PROJECTS",
+    "about": "ABOUT US",
+    "contact": "CONTACT"
+  },
+  "home": {
+    "projects": "<strong>PROJECTS</strong>",
+    "seeMore": "See more",
+    "viewPortfolio": "View portfolio",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo",
+    "photoAlt": "Football photography",
+    "aboutIntro": "Hello, welcome.<br><br>My name is <strong>Vinie</strong> and I am the <strong>CEO</strong> of <strong>Viniemedia</strong>. <br><strong>Viniemedia</strong> is a project dedicated to creating <strong>professional audiovisual content</strong>, turning moments into images that tell stories.",
+    "aboutFootball": "Specialising mainly in <strong>football coverage</strong>, with experience in matches, athletes and sporting events, always aiming to capture the intensity and emotion of every moment.",
+    "contactTitle": "<strong>Your next shot starts here:</strong>",
+    "clickHere": "Click here",
+    "contactText": "Get in touch with us."
+  },
+   "footer": {
+    "copyright": "© LN | All rights reserved",
+    "privacy": "Privacy Policy",
+    "legal": "Legal Notice",
+    "social": "Follow us on social media:"
+  }
+}

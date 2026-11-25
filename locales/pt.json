@@ -1,0 +1,33 @@
+
+{
+  "page": {
+    "title": "Home | Viniemedia"
+  },
+  "header": {
+    "home": "INÍCIO",
+    "projects": "PROJETOS",
+    "about": "QUEM SOMOS",
+    "contact": "CONTACTO"
+  },
+  "home": {
+
+    "projects": "<strong>PROJETOS</strong>",
+    "seeMore": "Ver mais",
+    "viewPortfolio": "Ver portfólio",
+    "previousPhoto": "Fotografia anterior",
+    "nextPhoto": "Próxima fotografia",
+    "photoAlt": "Fotografia de futebol",
+    "aboutIntro": "Olá, seja bem-vindo(a).<br><br>Me chamo <strong>Vinie</strong> e sou o <strong>CEO</strong> da <strong>Viniemedia</strong>. <br><strong>Viniemedia</strong> é um projeto dedicado à criação de <strong>conteúdo audiovisual profissional</strong>, transformando momentos em imagens que contam histórias.",
+    "aboutFootball": "Especializado principalmente na <strong>cobertura de futebol</strong>, com experiência em jogos, atletas e eventos esportivos, sempre buscando captar a intensidade e a emoção de cada momento.",
+    "contactTitle": "<strong>Seu próximo take pode começar aqui:</strong>",
+    "clickHere": "Clique aqui",
+    "contactText": "Entre em contacto connosco."
+  },
+  "footer": {
+    "copyright": "© LN | Todos os direitos reservados",
+    "privacy": "Política de Privacidade",
+    "legal": "Aviso Legal",
+    "social": "Siga as nossas redes sociais:"
+  }
+  
+}
